@@ -10,8 +10,8 @@
     "build-preview": "gulp build-preview",
     "start": "gulp server",
     "lint": "eslint src",
-    "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "snyk-protect": "snyk-protect",
+    "prepublish": "yarn run snyk-protect"
   },
   "author": "",
   "license": "MIT",
@@ -48,7 +48,7 @@
     "url-loader": "^0.5.7",
     "webpack": "^1.13.1",
     "whatwg-fetch": "^1.0.0",
-    "snyk": "^1.34.4"
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "gulp-inject": "^4.2.0",
